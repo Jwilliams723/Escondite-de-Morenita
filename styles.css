@@ -1,5 +1,5 @@
 body{
-    background:blue;
+    background:#4169E1;
     padding:0;
     margin:0;
     font-family: Helvetica, sans-serif;
@@ -9,8 +9,7 @@ body{
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 300%;
-  max-width: 1000px;
+  width: 500px;
   height: 200%;
 }
 
@@ -37,8 +36,8 @@ nav a:hover{
 
 /* Styles for hero or feature */
 .hero{
-  background-image: url("hair-2537564_1920.jpg");
-  height: 250px;
+  background-image: url("photo-1506600203427-faa3e15ce73a.jpg");
+  height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -79,6 +78,7 @@ main{
     margin: 2px 20px 2px 20px;
     background: grey;
     padding:30px;
+    color: white;
 }
 
 img{
@@ -104,6 +104,84 @@ footer a{
 
 
 
+
+
+
+/* START MOBILE FORM STYLES */
+    .form-container{
+/*       TO CENTER add AUTO for margin right and left*/
+      margin: 20px auto;
+/*  WIDTH 100%  FOR MOBILE DEVICES*/
+      width:90%;
+      display:block;
+      font-size:1em;
+    }
+    form p{
+      margin-bottom:5px;
+
+    }
+    label{
+      display:block;
+    }
+    #newsletter input{
+      display:inline;
+      width:auto;
+    }
+    input{
+      /* FOR MOBILE use WIDTH:100% */
+      width:100%;
+      padding:1.7%;
+      margin:1.5% 0;
+      font-size: 1em;
+      border-radius: 4px;
+      border:1px solid #ccc;
+      box-sizing: border-box;
+    }
+    textarea{
+      min-height:100px;
+       /* FOR MOBILE use WIDTH:100% */
+      width: 100%;
+      padding: 2%;
+      margin: 1.5% 0;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    form button{
+      /* CHANGED COLORS bellow */
+      background: #45A99F;
+      border: 1px solid #45A99F;
+      /* Rounded corners */
+      border-radius: 4px;
+      /* Text color */
+      color:white;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding:10px 20px;
+      font-size: 1.1em;
+    }
+  /*        END MOBILE FORM STYLES */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* medium size below */
 @media screen and (min-width: 700px) {
         .logo{
@@ -122,7 +200,19 @@ footer a{
           margin-right: 0;
 
         }
-
+        /*         START DESKTOP FORM STYLES */
+      .form-container{
+ /*         CHANGE WIDTH of FORM TO YOUR PREFERENCE */
+        width:50%;
+      }
+      input{
+         /* CHANGE WIDTH TO YOUR PREFERENCE */
+        width:60%;
+      }
+      button{
+        margin-top: 2%;
+        margin-bottom: 2%;
+      }
 
 }
 /* large screen styles below */
