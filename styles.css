@@ -1,5 +1,5 @@
 body{
-    background:black;
+    background:white;
     padding:0;
     margin:0;
     font-family: Helvetica, sans-serif;
@@ -9,8 +9,6 @@ body{
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
-  height: 200%;
 }
 
 
@@ -36,24 +34,17 @@ nav a:hover{
 
 /* Styles for hero or feature */
 .hero{
-  background-image: url("photo-1506600203427-faa3e15ce73a.jpg");
-  height: 200px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
-  position: relative;
+
+
+
 
 }
 
-.hero h2{
-  position: absolute;
-  bottom: 20%;
-  right:5%;
+ h2{
+
 }
-button{
-  position: absolute;
-  bottom: 8%;
-  right: 5%;
+.appt button{
+
   background: none;
   padding: 5px;
   border: 2px white solid;
@@ -185,11 +176,11 @@ footer a{
 /* medium size below */
 @media screen and (min-width: 700px) {
         .logo{
-          width: 200px;
+          width:80%;
         }
         img{
             display: inline;
-            width:30%;
+            width:100%;
         }
         .flexItem{
 
