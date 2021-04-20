@@ -1,5 +1,5 @@
 body{
-    background:#4169E1;
+    background:black;
     padding:0;
     margin:0;
     font-family: Helvetica, sans-serif;
@@ -15,7 +15,7 @@ body{
 
 
 nav{
-    background: grey;
+    background: gold;
     /* height: 60px; */
     text-align: center;
     font-family: Georgia, serif;
@@ -23,7 +23,7 @@ nav{
 
 nav a{
     text-align: center;
-    color:white;
+    color:black;
     font-size: 1.5em;
     padding:15px;
     margin:10px;
@@ -76,7 +76,7 @@ main{
     flex-basis: 300px;
     flex-grow: 1;
     margin: 2px 20px 2px 20px;
-    background: grey;
+    background: RoyalBlue;
     padding:30px;
     color: white;
 }
@@ -209,7 +209,7 @@ footer a{
          /* CHANGE WIDTH TO YOUR PREFERENCE */
         width:60%;
       }
-      button{
+      form button{
         margin-top: 2%;
         margin-bottom: 2%;
       }
