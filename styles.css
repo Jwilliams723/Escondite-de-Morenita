@@ -41,7 +41,7 @@ nav a:hover{
 }
 
  h2{
-
+text-align: center;
 }
 .appt button{
 
@@ -94,7 +94,13 @@ footer a{
 }
 
 
+.map{
+  width:90%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 
+}
 
 
 
@@ -204,7 +210,9 @@ footer a{
         margin-top: 2%;
         margin-bottom: 2%;
       }
-
+      .map{
+         
+      }
 }
 /* large screen styles below */
 @media screen and (min-width: 1300px) {
