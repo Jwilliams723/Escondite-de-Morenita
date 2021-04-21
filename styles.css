@@ -39,18 +39,29 @@ nav a:hover{
 
 
 }
-
+.hero img{
+  height: 50vh;
+}
  h2{
 text-align: center;
 }
-.appt button{
+.appt{
 
-  background: none;
-  padding: 5px;
-  border: 2px white solid;
-  color: white;
-  font-size: 1.3em;
-  border-radius: 5px;
+  /* CHANGED COLORS bellow */
+  background: #45A99F;
+  border: 1px solid #45A99F;
+  /* Rounded corners */
+  border-radius: 4px;
+  /* Text color */
+  color:white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding:10px 20px;
+  font-size: 1.1em;
+  text-align: center;
+  margin: auto;
+  width: 110px;
+  display: block;
 }
 
 
@@ -211,7 +222,7 @@ footer a{
         margin-bottom: 2%;
       }
       .map{
-         
+
       }
 }
 /* large screen styles below */
